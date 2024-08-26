@@ -1,0 +1,229 @@
+body{
+    font-family: "Vazirmatn";
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    background-image: url(Images/Desert.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    align-items:end;
+    text-align: center;
+}
+header ul{
+    list-style-type: none;
+    padding-left: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul li{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+header ul li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+#menu-bar{
+    background-color: #b8baf558;
+}
+#title{
+    color: white;
+    margin-top: 6%;
+    
+}
+#title h4{
+    margin: 0;
+}
+
+.welcome-icons{
+    width: auto;
+    height: 800px;
+    background-color: #e9e9e9;;
+    color: gray;
+    padding-left:20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+.welcome-icons h1{
+    font-weight:400;
+    color: #4f4f4f;
+}
+.welcome-icons h4{
+    direction: rtl;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome-icons hr{
+    width: 100%;
+    color: #b9b9b9;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.part{
+    width: 30%;
+    text-align: center;
+    overflow: auto;
+}
+.part i{
+    font-size: 100px;
+}
+.part h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.part button{
+    color: white;
+    background-color: #38c338;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-family: "Vazirmatn";
+    padding: 8px;
+    cursor: pointer;
+}
+.part button:hover{
+    transition: 0.2s;
+    background-color: green;
+}
+
+.posts{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    padding: 20px 0;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: #dfe2e8;
+}
+.post{
+    /* flex: 0 1 calc(50%-10px); */
+    height: 100%;
+    text-align: center;
+}
+.post img{
+    height: 60%;
+    width: 80%;
+    background-size: cover;
+}
+.post h4{
+    padding: 0 10%;
+}
+
+footer{
+    background-color: #4f4f4f;
+    height: 70px;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-gap: 20px;
+}
+
+.right{
+    color: rgb(198, 198, 198);
+    font-size: large;
+    font-family: Arial;
+    font-weight: 600;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.middle h2{
+    color:rgb(198, 198, 198);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+
+}
+.left p{
+    color: white;
+}
+.myprofile-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.Telegram{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+}
+.Telegram a{
+    padding-top: 3px;
+    margin-left: 2px;
+    font-size: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.Telegram img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Github{
+    display: flex;    
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+}
+.Github a{
+    padding-top: 3px;
+    margin-left: 2px;
+    font-size: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.Github img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
